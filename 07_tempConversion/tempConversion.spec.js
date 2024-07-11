@@ -6,7 +6,7 @@ describe('convertToCelsius', () => {
   });
   test('rounds to 1 decimal', () => {
     expect(convertToCelsius(100)).toEqual(37.8);
-  });
+  });uu
   test('works with negatives', () => {
     expect(convertToCelsius(-100)).toEqual(-73.3);
   });
